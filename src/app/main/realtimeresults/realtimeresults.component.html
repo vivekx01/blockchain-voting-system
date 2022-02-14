@@ -1,0 +1,16 @@
+<div class="text-center">
+    <button *ngIf="!signerAddress" (click)="connectmetamask()" class="btn btn-dark">Connect Metamask</button>
+</div>
+<div *ngIf="signerAddress" class="container chart h-50 w-75">
+    <h5 class="text-center mt-2">Realtime-Results</h5>
+    <canvas id="myChart"></canvas>
+</div>
+
+<div *ngIf="!signerAddress" class="container text-center w-75 h-75" >
+    <p>Please Connect to Metamask in order to get data</p>
+</div>
+<footer class="gradient fixed-bottom">
+    <div class="container-fluid text-center">
+      <span>Made by <a href="https://github.com/vivekx01/">Vivek</a></span>
+    </div>
+</footer>

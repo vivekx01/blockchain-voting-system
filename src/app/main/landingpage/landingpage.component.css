@@ -1,0 +1,47 @@
+.gradient{
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+}
+.page-header{
+    font-size: 1.25rem;
+    color: white;
+}
+.feature{
+    color: white;
+
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li{
+    padding-left: 2rem;
+    background-image: url(../../../assets/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+footer{
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+a{
+    color: white;
+}
+svg{
+    margin-top: -1px;
+}
+.sg2{
+    margin-top: 1px;
+}
+@media(max-width:600px) {
+    .tech{
+        width:200px;
+        height: 80px;
+        margin-left: 23%;
+    }
+    
+}

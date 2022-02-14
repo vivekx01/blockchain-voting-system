@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body text-center">
+            <img width="100" height="100" src="../../../assets/profile.webp" alt=""
+            class="rounded-circle img-thumbnail border-warning" />
+            <div class="card-title">
+                <h2>Confirm Your Details</h2>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h6 class="mb-0" style="font-weight:bold;">Database ID:</h6>
+                </div>
+                <div class="col-sm-9">
+                    {{dbid}}
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h6 class="mb-0" style="font-weight:bold;">Name:</h6>
+                </div>
+                <div class="col-sm-9">
+                    {{firstname}} {{lastname}}
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h6 class="mb-0" style="font-weight:bold;">Voter ID:</h6>
+                </div>
+                <div class="col-sm-9">
+                    {{voter_id}}
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h6 class="mb-0" style="font-weight:bold;">Phone Number:</h6>
+                </div>
+                <div class="col-sm-9 ">
+                    {{phone}}
+                </div>
+            </div>
+            <hr>
+            <button (click)="connectmetamask()" class="btn btn-success getotp">Confirm & Next</button>
+        </div>
+    </div>
+</div>
+
+<footer class="gradient fixed-bottom">
+    <div class="container-fluid text-center">
+    <span>Made by <a href="https://github.com/vivekx01/">Vivek</a></span>
+    </div>
+</footer>
+
+<!-- <div class="container text-center">
+    <h3>Confirm your Details</h3>
+    <p>User Voter Database ID: {{dbid}}</p>
+    <p>Name: {{firstname}} {{lastname}}</p>
+    <p>Voter ID: {{voter_id}}</p>
+    <p>Voting Status: {{voting_status}}</p>
+    <button class="btn btn-dark" (click)="connectmetamask()">Confirm & Next -></button>
+</div> -->

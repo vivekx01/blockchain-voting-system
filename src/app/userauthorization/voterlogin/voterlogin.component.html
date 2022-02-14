@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <div class="row d-flex align-items-center justify-content-center">
+      <form class="col-md-6">
+        <div class="card px-5 py-5">
+            <h3 style="text-align: center;">LOGIN</h3>
+          <div class="form-input">
+            <input type="text" name="phoneNumber" placeholder="Phone Number" class="form-control"
+              placeholder="Enter Phone Number" [(ngModel)]="phone" min="10" max="15" required>
+            <input type="text" name="voterID" placeholder="Voter ID" class="form-control mt-3"
+              placeholder="Enter 10-digit Voter ID" [(ngModel)]="voterID" min="10" max="10" required>
+          </div>
+          <button class="btn btn-success mt-4 getotp" (click)="getOTP()">Get OTP</button>
+
+          <div id="sign-in-button"></div>
+        </div>
+      </form>
+</div>
+<footer class="gradient fixed-bottom">
+  <div class="container-fluid text-center">
+    <span>Made by <a href="https://github.com/vivekx01/">Vivek</a></span>
+  </div>
+</footer>
