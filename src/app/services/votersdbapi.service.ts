@@ -13,7 +13,7 @@ export class VotersdbapiService {
     this.httpOptions = {
       headers : new HttpHeaders({
         'Content-Type': 'application/json',
-        'Authorization': 'Api-Key jBLEakpT.lklhqzpSVrX5SE2rvmMTfqw1U6teisYu'
+        'Authorization': 'Api-Key "API_KEY_HERE"'
       })
     };
    }
