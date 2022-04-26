@@ -6,6 +6,7 @@ Find the deployed version of the application here: https://blockchain-election.w
 
 ## Guides
 Understand how the application works on desktop: https://blockchain-election.web.app/assets/guides/Desktop-Guide-For-Users.pdf
+
 Understand how the application works on mobile devices: https://blockchain-election.web.app/assets/guides/guide-for-mobile-devices.pdf
 
 ## Project Screenshots:
