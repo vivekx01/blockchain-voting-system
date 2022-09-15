@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Find the deployed version of the application here: https://blockchain-election.web.app/
 
+Documentation: https://tinyurl.com/blockchainvotingsystem
+
 ## Guides
 Understand how the application works on desktop: https://blockchain-election.web.app/assets/guides/Desktop-Guide-For-Users.pdf
 
